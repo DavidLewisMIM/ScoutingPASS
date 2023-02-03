@@ -218,7 +218,7 @@ var config_data = `
         "4": "Excellent<br>",
         "0": "Did not play defense"
       },
-      "defaultValue": "x"
+      "defaultValue": "0"
     },
     { "name": "Swerve drive?",
       "code": "sd",
