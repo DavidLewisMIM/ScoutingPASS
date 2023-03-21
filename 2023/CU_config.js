@@ -9,14 +9,14 @@ var config_data = `
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
-      "required": "true"
+      "required": "false"
     },
     { "name": "Event",
       "code": "e",
       "type": "event",
       "defaultValue": "2023schar",
-      "required": "true",
-      "disabled": "true"
+      "required": "false",
+      "disabled": "false"
     },
     { "name": "Match Level",
       "code": "l",
