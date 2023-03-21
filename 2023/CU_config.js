@@ -64,16 +64,25 @@ var config_data = `
     }
   ],
   "auton": [
-    { "name": "Auto Scoring",
-      "code": "asg",
-      "type": "clickable_image",
-      "filename": "2023/grid_image.png",
-      "dimensions": "9 4",
-      "clickRestriction": "onePerBox",
-      "toggleClick": "true",
-      "showFlip": "false",
-      "showUndo": "false",
-      "shape": "circle 12 black red true"
+    { "name": "High Score",
+      "code": "hs",
+      "type": "counter"
+    },
+    { "name": "Mid Score",
+      "code": "ms",
+      "type": "counter"
+    },
+    { "name": "Low Score",
+      "code": "ls",
+      "type": "counter"
+    },
+    { "name": "Cones",
+      "code": "co",
+      "type": "counter"
+    },
+    { "name": "Cubes",
+      "code": "cu",
+      "type": "counter"
     },
     { "name": "Crossed Cable",
       "code": "acc",
@@ -100,24 +109,24 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Cycle Timer",
-      "code": "tct",
-      "type": "cycle"
+    { "name": "High Score",
+      "code": "hs",
+      "type": "counter"
     },
-    { "name": "Grid Scoring",
-      "code": "tsg",
-      "type": "clickable_image",
-      "filename": "2023/grid_image.png",
-      "dimensions": "9 4",
-      "clickRestriction": "onePerBox",
-      "toggleClick": "true",
-      "showFlip": "false",
-      "showUndo": "false",
-      "shape": "circle 12 black red true",
-      "cycleTimer": "tct"
+    { "name": "Mid Score",
+      "code": "ms",
+      "type": "counter"
     },
-    { "name": "High Cones",
-      "code": "hc",
+    { "name": "Low Score",
+      "code": "ls",
+      "type": "counter"
+    },
+    { "name": "Cones",
+      "code": "co",
+      "type": "counter"
+    },
+    { "name": "Cubes",
+      "code": "cu",
       "type": "counter"
     },
     { "name": "Feeder Count<br>(Fed another bot)",
