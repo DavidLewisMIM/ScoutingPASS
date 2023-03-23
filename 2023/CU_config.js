@@ -65,23 +65,23 @@ var config_data = `
   ],
   "auton": [
     { "name": "High Score",
-      "code": "hs",
+      "code": "ahs",
       "type": "counter"
     },
     { "name": "Mid Score",
-      "code": "ms",
+      "code": "ams",
       "type": "counter"
     },
     { "name": "Low Score",
-      "code": "ls",
+      "code": "als",
       "type": "counter"
     },
     { "name": "Cones",
-      "code": "co",
+      "code": "aco",
       "type": "counter"
     },
     { "name": "Cubes",
-      "code": "cu",
+      "code": "acu",
       "type": "counter"
     },
     { "name": "Crossed Cable",
@@ -110,23 +110,23 @@ var config_data = `
   ],
   "teleop": [
     { "name": "High Score",
-      "code": "hs",
+      "code": "ths",
       "type": "counter"
     },
     { "name": "Mid Score",
-      "code": "ms",
+      "code": "tms",
       "type": "counter"
     },
     { "name": "Low Score",
-      "code": "ls",
+      "code": "tls",
       "type": "counter"
     },
     { "name": "Cones",
-      "code": "co",
+      "code": "tco",
       "type": "counter"
     },
     { "name": "Cubes",
-      "code": "cu",
+      "code": "tcu",
       "type": "counter"
     },
     { "name": "Feeder Count<br>(Fed another bot)",
