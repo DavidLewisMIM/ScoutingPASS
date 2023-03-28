@@ -84,12 +84,8 @@ var config_data = `
       "code": "acu",
       "type": "counter"
     },
-    { "name": "Crossed Cable",
+    { "name": "Left Community",
       "code": "acc",
-      "type": "bool"
-    },
-    { "name": "Crossed Charging Station",
-      "code": "acs",
       "type": "bool"
     },
     { "name": "Mobility?",
