@@ -99,7 +99,7 @@ var config_data = `
         "10": "Docked (not Engaged)<br>",
         "12": "Engaged<br>",
         "0": "Attempted but failed<br>",
-        "0": "Not attempted"
+        "0": "Not attempted<br>"
       },
       "defaultValue": "x"
     }
@@ -152,7 +152,7 @@ var config_data = `
         "o": "Cones<br>",
         "u": "Cubes<br>",
         "b": "Both<br>",
-        "x": "Not Attempted"
+        "x": "Not Attempted<br>"
       },
       "defaultValue": "x"
     }
@@ -170,7 +170,7 @@ var config_data = `
         "8": "Docked (Not Engaged)<br>",
         "10": "Engaged<br>",
         "0": "Attempted but failed<br>",
-        "0": "Not attempted"
+        "0": "Not attempted<br>"
       },
       "defaultValue": "x"
     },
@@ -187,7 +187,7 @@ var config_data = `
         "0": "Not Effective<br>",
         ".5": "Average<br>",
         "1": "Very Effective<br>",
-        "x": "Not Observed"
+        "x": "Not Observed<br>"
       },
       "defaultValue": "x"
     },
@@ -203,7 +203,7 @@ var config_data = `
         ".5": "Average<br>",
         ".75": "Good<br>",
         "1": "Excellent<br>",
-        "0": "Did not play defense"
+        "0": "Did not play defense<br>"
       },
       "defaultValue": "x"
     },
