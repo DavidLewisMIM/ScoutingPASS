@@ -1,4 +1,4 @@
-var config_data = `
+config_data = `
 {
   "title": "Scouting PASS 2023",
   "page_title": "Charged Up",
@@ -98,10 +98,9 @@ var config_data = `
       "choices": {
         "10": "Docked (not Engaged)<br>",
         "12": "Engaged<br>",
-        "0": "Attempted but failed<br>",
         "0": "Not attempted<br>"
       },
-      "defaultValue": "x"
+      "defaultValue": "0"
     }
   ],
   "teleop": [
