@@ -14,7 +14,7 @@ config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023pchdis",
+      "defaultValue": "2023gacmp",
       "required": "false",
       "disabled": "false"
     },
