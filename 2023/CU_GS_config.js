@@ -17,7 +17,7 @@ var config_data = `
       "code": "e",
       "gsCol": "event",
       "type": "event",
-      "defaultValue": "2023schar",
+      "defaultValue": "2023cur",
       "required": "true",
       "disabled": "true"
     },
